@@ -1,0 +1,70 @@
+.conteudo{
+    background-color: oldlace;
+}
+
+.conteudo > .grid{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.principal{
+    display: flex;
+}
+
+.foto-otavio{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 60px 120px 20px 230px;
+}
+
+.foto-willian{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 60px 50px 30px 100px;
+}
+
+.otavio{
+    padding: 10px 300px 20px 330px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.willian{
+    padding: 0 0 0 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.experiencias{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-otavio{
+    padding: 30px 30px 70px 220px;
+    font-size: 1.3em;
+}
+
+.info-willian{
+    padding: 30px 0 70px 80px;
+    font-size: 1.3em;
+}
+
+.menu{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.esclarecimento{
+    text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 30px;
+}

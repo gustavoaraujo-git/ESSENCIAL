@@ -1,0 +1,203 @@
+.index{
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+    background: url(https://www.minutoseguros.com.br/blog/wp-content/uploads/2017/09/road-1658810_1920.jpg);
+    
+}
+
+.index > .grid{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.titulo1{
+    text-align: center;
+    padding-top: 25px;
+    color: #000;
+    font-size: 1.5em;
+    border-bottom: 2px solid #000;
+}
+
+.carros{
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+
+.carro1,
+.carro2, 
+.carro3,
+.carro4,
+.carro5{
+    width: 230px;
+    padding: 25px 30px 30px 20px;
+    height: 225px;
+}
+
+
+.titulo2{
+    padding-top: 10px;
+    font-size: 1.4em;
+    background-color: #FF8F35;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+}
+
+
+.info{
+    padding: 30px 0 7px 35px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #FF8F35;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+}
+
+.info2{
+    padding: 0 0 10px 35px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #FF8F35;
+}
+
+.info3{
+    padding: 0 0 10px 35px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #FF8F35;
+}
+
+.carro-icons{
+    display: flex;
+    flex-direction: row
+}
+
+.carro{
+    height: 750px;
+    width: 740px;
+    padding-top: 30px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4{
+    height: 50px;
+    padding: 20px;
+}
+.figure1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: yellow; */
+
+}
+.figure2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.figure3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.figure4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.plans{
+    background: url(../img/oback.jpg);
+    margin: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.plans > .grid{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.plans-container{
+    width: 100%;
+    background-color: #000;
+}
+
+.titulo-plans{
+    padding-top: 90px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+.conteudo-plans{
+    padding: 70px 0;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+    background: #fff;
+}
+
+@media (max-width: 991px){
+
+    .index{
+        padding-right: 10px;
+    }
+
+    .mobile-menu{
+        display: block;
+        padding: 30px 0 0 700px;
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carro{
+        display: none;
+    }
+
+    .carro-icons{
+        font-size: 0.7em;
+    }
+
+    .conteudo-plans{
+        font-size: 0.9em;
+        padding-right: 20px;
+    }
+
+}
+
+
+

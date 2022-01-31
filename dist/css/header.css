@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+
+.cabecalho{
+    background-color: #FF8F35;
+    border-bottom: 0.1px solid #000;
+}
+
+.cabecalho > .grid{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 160px;
+    height: 82px;
+    padding: 10px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    position: relative;
+    padding: 35px 90px 0 55px;
+}
+
+.menu ul li a{
+    color: blanchedalmond;
+    display: inline;
+    font-size: 1.3em;
+    padding: 20px;
+    text-decoration: none;
+    /* transition: 0.3s ease-in-out; */
+}
+
+.menu ul li a:hover{
+    text-shadow: black;
+    color: black;
+}
+
+.menu ul li a:focus{
+    text-shadow: red;
+    color: red;
+}
+
+.menu ul li a:active{
+    text-shadow: blue;
+    color: blue;
+}
+

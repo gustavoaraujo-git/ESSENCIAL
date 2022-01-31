@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+    
+}
+
+.rodape > .grid{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.rodape{
+    padding: 20px 20px;
+    background-color: #FF8F35;
+    color: blanchedalmond;
+    font-size: 1.2em;
+    gap: 20px;
+    border-top: solid blanchedalmond 0.8px;
+    border-top: 0.1px solid #000;
+}
+
+.logo-insta{
+    width: 30px;
+    height: 22px;
+    padding-left: 300px;
+}
+.logo-fb{
+    padding-left: 20px;
+    width: 30px;
+    height: 22px;
+}
