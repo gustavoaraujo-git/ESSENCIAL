@@ -39,7 +39,7 @@
     font-size: 1.3em;
     padding: 20px;
     text-decoration: none;
-    /* transition: 0.3s ease-in-out; */
+    transition: 0.3s ease-in-out;
 }
 
 .menu ul li a:hover{
@@ -74,16 +74,17 @@
         justify-content: space-evenly;
         padding-bottom: 20px;
         align-items: center;
-        top: 4vh;
         right: 0;
         height: 82vh;
         width: 60%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
+
     .nav-active{
         transform: translateX(0%);
     }
+
     @keyframes navLinkFade{
         from{
             opacity: 0;
