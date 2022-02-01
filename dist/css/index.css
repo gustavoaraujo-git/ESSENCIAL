@@ -47,7 +47,7 @@
 
 
 .info{
-    padding: 30px 0 7px 35px;
+    padding: 30px 20px 7px 35px;
     font-size: 1.1em;
     color: #fff;
     background-color: #FF8F35;
@@ -55,14 +55,14 @@
 }
 
 .info2{
-    padding: 0 0 10px 35px;
+    padding: 0 20px 10px 35px;
     font-size: 1.1em;
     color: #fff;
     background-color: #FF8F35;
 }
 
 .info3{
-    padding: 0 0 10px 35px;
+    padding: 0 20px 10px 35px;
     font-size: 1.1em;
     color: #fff;
     background-color: #FF8F35;
@@ -101,26 +101,28 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: yellow; */
 
 }
 .figure2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: yellow; */
 }
 .figure3{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: yellow; */
 }
 .figure4{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: yellow; */
+}
+
+.texto-icon1,
+.texto-icon2,
+.texto-icon3{
+    padding-right: 20px;
 }
 
 .plans{
@@ -140,6 +142,7 @@
 .plans-container{
     width: 100%;
     background-color: #000;
+    padding-right: 20px;
 }
 
 .titulo-plans{
@@ -172,16 +175,6 @@
 
     .index{
         padding-right: 10px;
-    }
-
-    .mobile-menu{
-        display: block;
-        padding: 30px 0 0 700px;
-    }
-
-    .nav-list{
-        display: flex;
-        flex-direction: column;
     }
 
     .carro{

@@ -18,13 +18,13 @@
     margin: 0 auto;
 }
 
-.logo img{
+.logo1{
     width: 160px;
     height: 82px;
     padding: 10px;
 }
 
-.menu ul{
+.nav-list{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -57,3 +57,20 @@
     color: blue;
 }
 
+@media (max-width: 991px){
+
+    .mobile-menu{
+        display: block;
+        padding: 30px 0 0 630px;
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+        align-items: center;
+        height: 100vh;
+    }
+
+}

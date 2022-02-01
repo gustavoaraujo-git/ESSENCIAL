@@ -68,3 +68,45 @@
     font-size: 1.1em;
     padding-bottom: 30px;
 }
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+    background: #fff;
+}
+
+@media(max-width: 991px){
+    .mobile-menu{display: block;}
+
+        .foto-otavio{
+            margin: 60px 100px 20px 70px;
+        }
+
+        .otavio{
+            padding: 10px 190px 20px 180px;
+        }
+
+        .willian{
+            padding: 10px 0 20px 200px;
+        }
+
+        .info-otavio{
+            padding: 30px 90px 70px 80px ;
+            font-size: 1.2em;
+        }
+
+        .info-willian{
+            padding: 30px 0 0 0px;
+            font-size: 1.2em;
+        }
+
+        .esclarecimento{
+            padding-right: 20px;
+        }
+}

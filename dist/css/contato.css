@@ -34,5 +34,24 @@ textarea{
 .despedida{
     padding: 20px 5px 20px 5px;
     border: inset 0.5px coral;
-    background-color: rgb(255, 180, 153);
+    background-color: rgb(236, 213, 204);
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+    background: #fff;
+}
+
+@media(max-width: 991px){
+    .mobile-menu{
+        display: block;
+        padding: 30px 0 0 630px;
+    }
 }
