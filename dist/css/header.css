@@ -74,7 +74,10 @@
         justify-content: space-evenly;
         padding-bottom: 20px;
         align-items: center;
-        height: 100vh;
+        top: 4vh;
+        right: 0;
+        height: 82vh;
+        width: 60%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
