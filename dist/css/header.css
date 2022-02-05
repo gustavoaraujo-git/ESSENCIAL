@@ -42,6 +42,11 @@
     transition: 0.3s ease-in-out;
 }
 
+.deslize{
+    color: blanchedalmond;
+    display: none;
+}
+
 .menu ul li a:hover{
     text-shadow: black;
     color: black;
@@ -68,6 +73,12 @@
         padding: 30px 0 0 630px;
     }
 
+    .deslize{
+        display: block;
+        padding: 0 0 20px 165px;
+        font-size: 1.4em;
+    }
+
     .nav-list{
         display: flex;
         flex-direction: column;
@@ -75,7 +86,7 @@
         padding-bottom: 20px;
         align-items: center;
         right: 0;
-        height: 82vh;
+        height: 80vh;
         width: 60%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
