@@ -96,6 +96,27 @@
         transform: translateX(0%);
     }
 
+    @media (max-width: 570px){
+
+        body{
+            overflow-x: hidden;
+        }
+    
+        .mobile-menu{
+            display: block;
+            padding: 30px 0 0 180px;
+        }
+    
+        .deslize{
+            display: block;
+            padding: 0 0 20px 20px;
+            font-size: 1.4em;
+        }
+
+        
+    }
+    
+
     @keyframes navLinkFade{
         from{
             opacity: 0;

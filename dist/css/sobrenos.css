@@ -66,3 +66,20 @@
         padding-right: 20px;
     }
 }
+@media(max-width: 570px){
+    .mobile-menu{display: block;}
+
+    .image1{
+        display: none;
+    }
+    .titulo{
+        padding: 300px 10px;
+        font-size: 1.5em;
+        color: coral;
+    }
+    .descricao{
+        font-size: 1.0em;
+        padding-right: 20px;
+        color: coral;
+    }
+}

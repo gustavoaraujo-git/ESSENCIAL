@@ -110,3 +110,32 @@
             padding-right: 20px;
         }
 }
+@media(max-width: 991px){
+    .mobile-menu{display: block;}
+
+        .foto-otavio{
+            margin: 60px 50px 20px 40px;
+        }
+
+        .otavio{
+            padding: 10px 20px 20px 85px;
+        }
+
+        .willian{
+            padding: 10px 0 20px 200px;
+        }
+
+        .info-otavio{
+            padding: 30px 80px 90px 50px ;
+            font-size: 1.0em;
+        }
+
+        .info-willian{
+            padding: 30px 0 0 0px;
+            font-size: 1.0em;
+        }
+
+        .esclarecimento{
+            padding-right: 20px;
+        }
+}
