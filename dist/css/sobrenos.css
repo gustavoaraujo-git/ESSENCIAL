@@ -12,6 +12,7 @@
     background: url(https://www.minutoseguros.com.br/blog/wp-content/uploads/2017/09/road-1658810_1920.jpg);
     opacity: 0.9;
     background-color: rgb(238, 238, 238);
+    overflow-x: hidden;
 }
 
 .image1{
@@ -53,6 +54,10 @@
 }
 
 @media(max-width: 991px){
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{display: block;}
 
     .image1{
@@ -73,7 +78,7 @@
         display: none;
     }
     .titulo{
-        padding: 300px 10px;
+        padding: 360px 10px;
         font-size: 1.5em;
         color: coral;
     }
@@ -81,5 +86,6 @@
         font-size: 1.0em;
         padding-right: 20px;
         color: coral;
+        padding: 350px 0 ;
     }
 }

@@ -1,5 +1,6 @@
 .conteudo{
     background-color: oldlace;
+    overflow-x: hidden;
 }
 
 .conteudo > .grid{
@@ -82,6 +83,11 @@
 }
 
 @media(max-width: 991px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{display: block;}
 
         .foto-otavio{
@@ -111,6 +117,11 @@
         }
 }
 @media(max-width: 715px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{display: block;}
 
         .foto-otavio{
@@ -143,6 +154,11 @@
         }
 }
 @media(max-width: 517px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{display: block;}
 
         .foto-otavio{
@@ -175,21 +191,26 @@
         }
 }
 @media(max-width: 408px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{display: block;}
 
         .foto-otavio{
-            margin: 60px 30px 20px 20px;
+            margin: 180px 30px 20px 20px;
         }
         .foto-willian{
-            margin: 60px 50px 20px 15px;
+            margin: 180px 50px 20px 15px;
         }
 
         .otavio{
-            padding: 5px 20px 20px 60px;
+            padding: 20px 20px 20px 60px;
         }
 
         .willian{
-            padding: 10px 0 20px 110px;
+            padding: 20px 0 20px 110px;
         }
 
         .info-otavio{
@@ -198,11 +219,11 @@
         }
 
         .info-willian{
-            padding: 30px 0 0 0px;
+            padding: 30px 0 0 0;
             font-size: 1.0em;
         }
 
         .esclarecimento{
-            padding-right: 20px;
+            padding: 40px 20px 100px 0;
         }
 }

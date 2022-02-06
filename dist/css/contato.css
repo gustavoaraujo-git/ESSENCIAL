@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 .conteudo{
     display: flex;
@@ -50,8 +51,23 @@ textarea{
 }
 
 @media(max-width: 991px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{
         display: block;
         padding: 30px 0 0 630px;
+    }
+
+    .titulo{
+        margin-top: 80px;
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .despedida{
+        margin-bottom: 100px;
     }
 }
